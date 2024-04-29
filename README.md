@@ -23,5 +23,5 @@ To run, the container model engine requires a mounted volume to which the submis
 ```
 subdir="/local/path/to/submission/directory"
 
-docker run --rm -v $subdir:/submission --env-file=tsens/vars.env --cpus="4" fiphde-tsens:latest
+docker run --rm -v $subdir:/submission --env-file=tsens/var.env --cpus="4" fiphde-tsens:latest
 ```
