@@ -10,7 +10,14 @@ Note that currently the only model engine provided is the time series ensemble (
 
 ## Build the image
 
-When run from the root of this repo, the command below will build an tag the TSENS engine:
+The image is available as a GitHub Package and can be pulled as follows:
+
+```
+docker pull ghcr.io/signaturescience/fiphde-tsens:latest
+docker pull ghcr.io/signaturescience/fiphde-tsens:2.0.0
+```
+
+Alternatively to build and tag the TSENS engine, use the command below from the root of this repository:
 
 ```
 docker build -t fiphde-tsens:latest -t fiphde-tsens:2.0.0 tsens/.
